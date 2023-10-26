@@ -1,0 +1,113 @@
+1. package oopsdemo;
+
+public class String {
+
+	public static void main(java.lang.String[] args) {
+		java.lang.String 
+		s1="saicharan";
+		java.lang.String 
+		s2="nani";
+		java.lang.String 
+		s3="sai";
+		System.out.println(s1+" "+s2+" "+s3);
+		System.out.println(s1.concat("hero"));
+		System.out.println(s1.charAt(2));
+		System.out.println(s1.substring(0,3));
+		System.out.println(s1.replace("sai","ram"));
+		System.out.println(s1.indexOf("charan"));
+		System.out.println(s1.startsWith("sai"));
+		System.out.println(s1.endsWith("charan"));
+		System.out.println(s1.equals("sai"));
+
+		
+		
+				
+				
+
+	}
+
+}
+
+2(a). package oopsdemo;
+
+public class String3 {
+
+	public static void main(String[] args) {
+		StringBuffer s1=new StringBuffer("naga charan");
+		StringBuffer s2=new StringBuffer("nani");
+		StringBuffer s3=new StringBuffer("naga");
+		System.out.println(s1+" "+s2+" "+s3);
+		System.out.println(s1.reverse());
+		System.out.println(s1.delete(0, 3));
+		System.out.println(s1.append("pulluru"));
+		System.out.println(s1.insert(0,"pulluru" ));
+		System.out.println(s1.length());
+		
+		
+
+	}
+
+}
+
+2(b). package oopsdemo;
+
+public class String3 {
+
+	public static void main(String[] args) {
+		StringBuilder s1=new StringBuilder("naga charan");
+		StringBuilder s2=new StringBuilder("nani");
+		StringBuilder s3=new StringBuilder("naga");
+		System.out.println(s1+" "+s2+" "+s3);
+		System.out.println(s1.reverse());
+		System.out.println(s1.delete(0, 3));
+		System.out.println(s1.append("pulluru"));
+		System.out.println(s1.insert(0,"pulluru" ));
+		System.out.println(s1.length());
+		
+		
+
+	}
+
+}
+
+3.
+package oopsdemo;
+
+public class String2 {
+	
+   public static void main(String[] args) {
+	   
+        
+        Object obj1 = new Object();
+        Object obj2 = new Object();
+
+        
+        System.out.println("equals() Method:");
+        System.out.println("obj1 equals obj2: " + obj1.equals(obj2));
+        System.out.println();
+
+        
+        System.out.println("== Operator:");
+        System.out.println("obj1 == obj2: " + (obj1 == obj2));
+        System.out.println();
+
+        
+        System.out.println("hashCode() Method:");
+        System.out.println("Hash code of obj1: " + obj1.hashCode());
+        System.out.println("Hash code of obj2: " + obj2.hashCode());
+        System.out.println();
+
+        
+        System.out.println("toString() Method:");
+        System.out.println("String representation of obj1: " + obj1.toString());
+        System.out.println("String representation of obj2: " + obj2.toString());
+        System.out.println();
+
+        
+        System.out.println("getClass() Method:");
+        System.out.println("Class of obj1: " + obj1.getClass().getName());
+        System.out.println("Class of obj2: " + obj2.getClass().getName());
+    }
+}
+}
+
